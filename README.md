@@ -43,4 +43,5 @@ Key Performance Indicators:
 •	Kolisi Foundation (2024) About Us. Available [online] at: https://kolisifoundation.org/about-us/ (Accessed: 9 April 2026)
 •	Kolisi Foundation (2024) Focus Areas. Available [online] at: https://kolisifoundation.org (Accessed: 9 April 2026)
 •	WordPress.org (2024) Getting Started with WordPress. Available [online] at: https://wordpress.org/support/ (Accessed: 9 April 2024)
-
+•	W3schools (2024) HTML. Available [online] at: https://www.w3schools.com/default.asp (Accessed: 9 April 2026)
+•	https://unsplash.com/s/photos/township-schools
