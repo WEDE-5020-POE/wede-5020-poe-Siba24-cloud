@@ -36,7 +36,7 @@ Key Performance Indicators:
 
 ## Sitemap
 
-![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
+![Sitemap.drawio.png](Sitemap.drawio.png) <br> (The one here is only an example, include your own site map)
 
 ## References
 
