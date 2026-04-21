@@ -6,14 +6,13 @@ This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- xyz
+- I added the social media of the Foundation
 
 ### Changed
-- xyz
+- I changed the pictures that were used from the original website
 
 ### Fixed
-- xyz
-
+- I fixed the HTML from my VS code, and I connected it to my Github
 ## Semantic Versioning
 
 Format: MAJOR.MINOR.PATCH  
