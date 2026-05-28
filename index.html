@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
  </head>
  <body>
   <!-- Header & Navigation -->
-   <header>
-    <h1>Kolisi Foundation</h1>
-    <a href="index.html"><img src="kolisi-foundation.png" alt="Kolisi Foundation" width="25%" height="25%"></a>
-   <nav>
+   <header class="header-container">
+    <div class="logo">
+     <a href="index.html"><img src="kolisi-foundation.png" alt="Kolisi Foundation" width="25%" height="25%"></a>
+    </div>
+    <nav class="navbar">
      <hr>
     <table>
      <tr>
-      <td><a href="index.html">Home</a></td>
-      <td><a href="about.html">About Us</a></td>
-      <td><a href="services.html">Services</a></td>
-      <td><a href="enquiry.html">Enquiry</a></td>
-      <td><a href="contact.html">Contact Us</a></td>
+      <td><a href="index.html" class="nav-link active">Home</a></td>
+      <td><a href="about.html" class="nav-link">About Us</a></td>
+      <td><a href="services.html" class="nav-link">Services</a></td>
+      <td><a href="enquiry.html" class="nav-link">Enquiry</a></td>
+      <td><a href="contact.html" class="nav-link">Contact Us</a></td>
      </tr>
     </table>  
    </nav>
    <!-- End of Navigation -->
     <hr>
     </header>
-  <main>
+  <main class="main-content">
     <!-- Hero Section -->
-     <section>
+     <section class="hero">
       <h2>Welcome to Kolisi Foundation</h2>
       <p><strong>Kolisi Foundation</strong> is dedicated to making a positive impact in our community.</p>
       <p> <a href="enquiry.html">Get in touch with us</a> to learn more about our initiatives.</p>
@@ -37,7 +39,7 @@
      <hr>
 
      <!-- Featured Programs -->
-      <section>
+      <section class="featured-programs">
         <h3>Our Programs</h3>
         <ul>
           <li><strong>Education & Sport:</strong> Providing resources and scholarships to underprivileged students.</li>
@@ -49,7 +51,7 @@
       <!-- End of Featured Programs -->
       <hr>
       <!-- Stats -->
-        <section>
+        <section class="stats">
           <h3>Our Impact</h3>
           <p>Since our inception, we have:</p>
           <ul>
@@ -59,15 +61,15 @@
           </ul>
         </section>
       <!-- Call to Action -->
-       <section>
-        <h3>Get Involved</h3>
+       <section class="call-to-action">
+        <h3 class="heading-tertiary">Get Involved</h3>
         <p>Join us in making a difference. Together, we can create a brighter future for our community.</p>
-        <p><a href="enquiry.html">Contact us to get involved</a></p>
+        <p><a href="enquiry.html" class="btn-primary">Contact us to get involved</a></p>
        </section>
        <!-- End of Call to Action -->
        <hr>
        <!-- Footer Start-->
-<footer>
+<footer class="footer">
   <hr>
   <table width="100%" border="0" cellpadding="10" cellspacing="0">
     <tr valign="center">
