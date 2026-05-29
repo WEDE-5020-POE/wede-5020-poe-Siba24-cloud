@@ -499,6 +499,63 @@ footer {
         font-size: 0.85rem;
     }
 }
+/* ----------- Hamburger Menu (Mobile only)-------------*/
+.nav-toggle {
+    display: none; /* hide the checkbox itself */
+}
+/* Hamburger icon styles - hidden on desktop, shown on mobile */
+.nav-toggle-label {
+    display: none; /* hidden on desktop */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+.nav-toggle-label span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+/*----- MOBILE STYLES (max-width: 767px) -----*/
+@media (max-width: 767px) {
+    .nav-toggle-label {
+        display: flex; /* show hamburger on mobile */
+    }
+    
+    .navbar {
+        display: none; /* hide nav by default on mobile */
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .nav-toggle-label { order: 1;}
+    .logo { order: 2; }
+    .donate-btn { order: 3;}
+    .navbar { order: 4; }
+    
+    .nav-toggle:checked ~ .navbar {
+        display: block; /* show nav when checkbox is checked */
+    }
+    .nav-toggle:checked ~ .nav-toggle-label span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    .nav-toggle:checked ~ .nav-toggle-label span:nth-child(2) {
+        opacity: 0;
+    }
+    .nav-toggle:checked ~ .nav-toggle-label span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+}
 /* Desktop Large (min-width: 1400px) */
 @media (min-width: 1400px) {
     .container,
