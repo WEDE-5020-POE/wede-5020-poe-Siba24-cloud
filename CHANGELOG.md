@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 This project follows Semantic Versioning.
 
-## [1.0.0] 
+## [2.0.0] 
 ### Added
 - I added the social media of the Foundation
 - I added the <div> on all HTML.
