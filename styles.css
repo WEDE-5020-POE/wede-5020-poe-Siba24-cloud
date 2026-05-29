@@ -86,7 +86,7 @@ a:hover {
    3. LAYOUT STRUCTURE – Flexbox & Grid (Desktop first)
    --------------------------------------------- */
 /* Header with navigation */
-header {
+.site-header {
     background-color:#fefefe;
     color: white;
     padding: 3rem 6rem;
@@ -371,6 +371,26 @@ footer {
    5. RESPONSIVE DESIGN
    --------------------------------------------- */
 /* Tablet breakpoint */
+@media (max-width: 992px) {
+    .grid-3col,
+    .grid-4col {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    
+    .heading-primary {
+        font-size: 2.2rem;
+    }
+    
+    .heading-secondary {
+        font-size: 1.8rem;
+    }
+}
+
 @media (max-width: 768px) {
     html {
         font-size: 90%; 
@@ -423,8 +443,8 @@ footer {
     body {
         font-size: 0.95rem;
     }
-    
-    main {
+
+    .main-content {
         padding: 1rem;
     }
     
@@ -492,7 +512,7 @@ a:focus-visible, button:focus-visible, input:focus-visible {
     transform: scale(1.02);
 }
 
-/* Custom scrollbar (optional) */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
