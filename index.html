@@ -4,49 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <meta name="description" content="Kolisi Foundation is dedicated to making a positive impact in our community through education, food security, and support for survivors of gender-based violence. Join us in creating a brighter future for all.">
+    <meta name="keywords" content="Kolisi Foundation, education, food security, gender-based violence, community impact, scholarships, nutrition education, survivor support, policy advocacy">
+    <meta name="author" content="Kolisi Foundation">
     <link rel="stylesheet" href="styles.css">
  </head>
  <body>
   <!-- Header & Navigation -->
-   <header class="header-container">
-    <div class="logo">
-     <a href="index.html"><img src="kolisi-foundation.png" alt="Kolisi Foundation" width="25%" height="25%"></a>
-    </div>
+   <header class="site-header">
+    <div class="header-container">
+     <div class="logo">
+      <a href="index.html"><img src="kolisi-foundation.png" alt="Kolisi Foundation" width="25%" height="25%"></a>
+     </div>
     
-    <!-- Hamburger toggle (hidden on desktop) -->
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-   <label for="nav-toggle" class="nav-toggle-label">
-     <span></span>
-     <span></span>
-     <span></span>
-    </label>
-    <nav class="navbar">
-     <hr>
-    <table cellpadding="5" cellspacing="5" width="100%">
-      <tr>
-     <tr>
-      <td><a href="index.html" class="nav-link active">Home</a></td>
-      <td><a href="about.html" class="nav-link">About Us</a></td>
-      <td><a href="services.html" class="nav-link">Services</a></td>
-      <td><a href="enquiry.html" class="nav-link">Enquiry</a></td>
-      <td><a href="contact.html" class="nav-link">Contact Us</a></td>
-     </tr>
-    </table>  
-   </nav>
-    <a href="enquiry.html" class="donate-btn">Get Involved</a>
-   <!-- End of Navigation -->
+     <!-- Hamburger toggle (hidden on desktop) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+     <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+     </label>
+      <nav class="navbar">
+       <hr>
+       <table cellpadding="5" cellspacing="5" width="100%">
+        <tr>
+        <tr>
+          <td><a href="index.html" class="nav-link active">Home</a></td>
+          <td><a href="about.html" class="nav-link">About Us</a></td>
+          <td><a href="services.html" class="nav-link">Services</a></td>
+          <td><a href="enquiry.html" class="nav-link">Enquiry</a></td>
+          <td><a href="contact.html" class="nav-link">Contact Us</a></td>
+        </tr>
+       </table>  
+      </nav>
+       <a href="enquiry.html" class="donate-btn">Get Involved</a>
+    </div>
+     <!-- End of Navigation -->
     <hr>
     </header>
   <main class="main-content">
     <!-- Hero Section -->
      <section class="hero">
-      <h2>Welcome to Kolisi Foundation</h2>
-      <p><strong>Kolisi Foundation</strong> is dedicated to making a positive impact in our community.</p>
-      <p> <a href="enquiry.html">Get in touch with us</a> to learn more about our initiatives.</p>
-      <img src="School-Learners-img.jpg" alt="School Learners" width="100%" height="100%">
-     </section>
+      <div class="hero-content">
+       <h2>Welcome to Kolisi Foundation</h2>
+       <p><strong>Kolisi Foundation</strong> is dedicated to making a positive impact in our community.</p>
+       <p> <a href="enquiry.html">Get in touch with us</a> to learn more about our initiatives.</p>
+        <img src="School-Learners-img.jpg" alt="School Learners" width="100%" height="100%">
+      </div>     
+      </section>
      <!-- End of Hero Section -->
-     <hr>
+
+      <!-- Modal (hidden by default)-->
+      <div id="donationModalContent" class="modal-content">
+        <div
+         <span class="close-modal">&times;</span>
+         <h2>Support Our Cause</h2>
+         <p>Your donation helps us continue our work in education, food security, and supporting survivors of gender-based violence. Every contribution makes a difference.</p>
+         <a href="enquiry.html" class="btn-primary">Donate Now</a>
+        </div>
+      </div>
+    <hr>
 
      <!-- Featured Programs -->
       <section class="featured-programs">
@@ -78,8 +95,9 @@
        </section>
        <!-- End of Call to Action -->
        <hr>
-       <!-- Footer Start-->
-<footer class="footer">
+  </main>  
+  <!-- Footer Starts -->    
+<footer class="site-footer">
   <hr>
   <table width="100%" border="0" cellpadding="10" cellspacing="0">
     <tr valign="center">
@@ -111,6 +129,6 @@
   </div>
 </footer>
 <!-- End of Footer -->
-  </main>
+  <script src="script.js"></script>
   </body>
 </html> 

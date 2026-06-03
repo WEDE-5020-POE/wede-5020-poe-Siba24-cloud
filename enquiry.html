@@ -40,27 +40,39 @@
 <form action="#" method="post">
   <fieldset>
     <legend>Your Information</legend>
-    <label for="fullname">Full name *</label><br>
-    <input type="text" id="fullname" name="fullname" required size="40"><br><br>
-
-    <label for="phone">Phone number *</label><br>
-    <input type="tel" id="phone" name="phone" required size="40"><br><br>
-
-    <label for="email">Email address *</label><br>
-    <input type="email" id="email" name="email" required size="40"><br><br>
-
-    <label for="interest">I am interested in *</label><br>
-    <select id="interest" name="interest" required>
-      <option value="">--Please choose an option--</option>
-      <option value="volunteer">Volunteering</option>
-      <option value="donation">Donating</option>
-      <option value="partner">Partnership</option>
-      <option value="Fundraising Event">Fundraising Event</option>
-      <option value="Monthly Donors Club">Monthly Donors Club</option>
-    </select><br><br>
-
+    <div class="form-group">
+      <label for="fullname">Full name *</label><br>
+      <input type="text" id="fullname" name="fullname" required size="40"><br><br>
+      <div class="error-message" id="nameError"></div>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone number *</label><br>
+      <input type="tel" id="phone" name="phone" required size="40"><br><br>
+      <div class="error-message" id="phoneError"></div>
+    <div class="form-group">
+      <label for="email">Email address *</label><br>
+      <input type="email" id="email" name="email" required size="40"><br><br>
+      <div class="error-message" id="emailError"></div>
+    </div>
+    <div class="form-group">
+      <label for="email">Email address *</label><br>
+      <input type="email" id="email" name="email" required size="40"><br><br>
+      <div class="error-message" id="emailError"></div>
+    </div>
+    <div class="form-group">
+      <label for="interest">I am interested in *</label><br>
+      <select id="interest" name="interest" required>
+        <option value="">--Please choose an option--</option>
+        <option value="volunteer">Volunteering</option>
+        <option value="donation">Donating</option>
+        <option value="partner">Partnership</option>
+        <option value="Fundraising Event">Fundraising Event</option>
+        <option value="Monthly Donors Club">Monthly Donors Club</option>
+      </select><br><br>
+    </div>
      <button type="submit">Send Enquiry</button>
      <button type="reset">Clear Form</button>
+     <div id="enqResponse" class="mt-2"></div>
   </fieldset>
 </form>
   <hr>
