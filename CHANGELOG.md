@@ -9,11 +9,12 @@ This project follows Semantic Versioning.
 - I added the social media of the Foundation
 - I added the <div> on all HTML.
 - I added class="" to the HTML
+- I added the JavaScript to the HTML
 
 ### Changed
 - I changed the pictures that were used from the original website
 - I didn't change anything when I was busy adding the CSS
-
+- the HTML
 ### Fixed
 - I fixed the HTML from my VS code, and I connected it to my Github
 ## Semantic Versioning
