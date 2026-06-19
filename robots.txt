@@ -1,0 +1,27 @@
+# robots.txt for Kolisi Foundation
+# https://kolisifoundation.org/robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /includes/
+Disallow: /config/
+
+# Sitemap location
+Sitemap: https://kolisifoundation.org/sitemap.xml
+
+# Crawl delay to be respectful to server
+Crawl-delay: 5
+
+# Allow Googlebot to crawl all pages
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Allow Bingbot to crawl
+User-agent: bingbot
+Allow: /
+Crawl-delay: 5
