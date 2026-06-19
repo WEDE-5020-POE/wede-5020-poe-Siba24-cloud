@@ -1,6 +1,5 @@
 // ============================================
 // KOLISI FOUNDATION - MAIN JAVASCRIPT FILE
-// Handles all interactive functionality across all pages
 // ============================================
 
 // Wait for DOM to be fully loaded
